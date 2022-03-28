@@ -1,0 +1,44 @@
+/* added some font */
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Montserrat&display=swap');
+
+html {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(180deg,#f0faed, #ffdcdc);
+    text-align:center;
+    font-family: 'Montserrat', sans-serif
+}
+
+.image {
+    padding: 0;
+     -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -khtml-border-radius: 8px;  
+    border-radius: 8px;
+    width: 600px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.block {
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    width: min(70%, 500px);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.479);
+}
+
+#contents   {
+    margin-top: 0rem;
+    height: 300px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgb(255,255,255);
+}
+.recipe {
+    padding: 5px;
+    font-size: 1.5rem;
+}
